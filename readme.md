@@ -7,6 +7,7 @@ docker-compose up -d
 
 3.コマンド後に"db_data"、"wp"ファイルが作成される
 
+```html:ディレクトリ
 .
 ├── docker-compose.yml
 ├── db_data
@@ -14,6 +15,7 @@ docker-compose up -d
 │  
 └── wp
     ├── index.php
+```
 
 4.ブラウザで "http://localhost:8080" を入力
 
