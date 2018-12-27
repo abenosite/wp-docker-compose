@@ -4,3 +4,17 @@
 2.ターミナルで以下のコマンドを打つ
 
 docker-compose up -d
+
+3.コマンド後に"db_data"、"wp"ファイルが作成される
+
+.
+├── docker-compose.yml
+├── db_data
+│   ├── auto.cnf
+│  
+└── wp
+    ├── index.php
+
+4.ブラウザで "http://localhost:8080" を入力
+
+5.ワードプレスの登録画面になる
